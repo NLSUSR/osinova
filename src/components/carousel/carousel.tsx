@@ -2,9 +2,16 @@ import "bootstrap/dist/css/bootstrap.css";
 import css from "./carousel.module.sass";
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import data from "../../assets/data/data.json";
 
-export const BSCarousel = ({ index }: { index?: number }) => {
+type data = { id: number; image: string; alt: string };
+
+export const BSCarousel = ({
+  index,
+  data,
+}: {
+  index?: number;
+  data: data[];
+}) => {
   const [current, setCurrent] = useState(0);
 
   const handleSelectImage = (selectedIndex: number) => {
@@ -20,10 +27,9 @@ export const BSCarousel = ({ index }: { index?: number }) => {
       {data.map((e, i) => (
         <Carousel.Item key={i}>
           <img
-            onClick={() => {}}
             className={css.image}
             src={e.image}
-            alt={`Carousel Image ${i + 1}`}
+            alt={`Carousel Image ${i + 1},${e.alt}`}
           />
         </Carousel.Item>
       ))}
