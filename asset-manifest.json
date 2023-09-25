@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.6d0b8dc6.css",
+    "main.js": "./static/js/main.91aa6f5b.js",
+    "static/media/slippers.png": "./static/media/slippers.417d6c556a6c37cacdb5.png",
+    "static/media/SFProDisplay-Regular.ttf": "./static/media/SFProDisplay-Regular.6b109fecbc7563467e36.ttf",
+    "static/media/img2.jpg": "./static/media/img2.ee9d23f32c8a6a1b55cb.jpg",
+    "static/media/img4.jpg": "./static/media/img4.1c39cec1da950f0bd022.jpg",
+    "static/media/img3.jpg": "./static/media/img3.246d1960a7d990912091.jpg",
+    "static/media/img1.jpg": "./static/media/img1.8a69503ada1ca84fbb1c.jpg",
+    "static/media/GothamPro-Bold.ttf": "./static/media/GothamPro-Bold.764ba13de4409a990823.ttf",
+    "static/media/GothamPro.ttf": "./static/media/GothamPro.4f71921a0823129cd8ba.ttf",
+    "static/media/logo.png": "./static/media/logo.87bf600fdb7260c2ffa2.png",
+    "static/media/trustpilot.svg": "./static/media/trustpilot.815319ac3bb0b9b1608c4305aa14f3c2.svg",
+    "static/media/stars.svg": "./static/media/stars.0e5550d0c95ec80dc2a8f71391a5af68.svg",
+    "index.html": "./index.html",
+    "static/media/arrow.svg": "./static/media/arrow.6a03d0c61e706ac3e75a.svg",
+    "static/media/ellipse.svg": "./static/media/ellipse.431f35b926274d1f4d9e.svg",
+    "main.6d0b8dc6.css.map": "./static/css/main.6d0b8dc6.css.map",
+    "main.91aa6f5b.js.map": "./static/js/main.91aa6f5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d0b8dc6.css",
+    "static/js/main.91aa6f5b.js"
+  ]
+}
