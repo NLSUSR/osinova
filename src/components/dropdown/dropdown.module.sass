@@ -1,0 +1,69 @@
+.block__dropdown
+  width: 170px
+  height: 64px
+  flex-shrink: 0
+  display: flex
+  flex-direction: column
+  gap: 4px
+  justify-content: center
+
+.dropdown__title
+  transform: translate(40px,-3px)
+  width: 89.149px
+  color: #2C2B31
+  text-align: center
+  font-family: Gotham Pro
+  font-size: 10px
+  font-style: normal
+  font-weight: 400
+  line-height: normal
+  margin: 0
+
+.dropdown__button
+  width: 170px
+  height: 50px
+  flex-shrink: 0
+  display: flex
+  justify-content: center
+  align-items: center
+  border: none
+  border-radius: 15px
+  background-color: white
+  &:hover
+    background-color: white
+  &:focus
+    background-color: white
+
+.button__text
+  transform: translate(6px,-2px)
+  color: #2C2B31
+  text-align: center
+  font-family: Gotham Pro
+  font-size: 21.69px
+  font-style: normal
+  font-weight: 700
+  line-height: normal
+  text-transform: uppercase
+  margin: 0
+  padding: 0
+  width: 111px
+  position: relative
+  &::after
+    content: ""
+    background-color: white
+    background-image: url("../../assets/images/arrow.svg")
+    background-size: 22px 9px
+    background-repeat: no-repeat
+    position: absolute
+    top: 10.5px
+    right: -19px
+    width: 22px
+    height: 9px
+
+.dropdown__item
+  color: #000
+  font-family: SF Pro Display
+  font-size: 12px
+  font-style: normal
+  font-weight: 400
+  line-height: normal
